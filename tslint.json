@@ -20,7 +20,7 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "tabs"
     ],
     "interface-over-type-literal": true,
     "label-position": true,
@@ -31,8 +31,7 @@
     "member-access": false,
     "member-ordering": [
       true,
-      "static-before-instance",
-      "variables-before-functions"
+      {"order":"statics-first"}
     ],
     "no-arg": true,
     "no-bitwise": true,
@@ -79,8 +78,8 @@
       "single"
     ],
     "radix": true,
-    "semicolon": [
-      "always"
+    "semicolon": [true,
+      "never"
     ],
     "triple-equals": [
       true,
